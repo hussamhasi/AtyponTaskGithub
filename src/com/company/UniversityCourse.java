@@ -16,5 +16,8 @@ public class UniversityCourse {
     public void register(String studentName){
         students.add(studentName);
     }
+    public void drop(String studentName){
+        students.remove(studentName);
+    }
 
 }

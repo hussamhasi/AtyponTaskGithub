@@ -19,5 +19,8 @@ public class UniversityCourse {
     public void drop(String studentName){
         students.remove(studentName);
     }
+    public Boolean isRegistered(String studentName){
+        return students.indexOf(studentName) != -1;
+    }
 
 }

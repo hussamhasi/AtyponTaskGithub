@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	UniversityCourse java=new UniversityCourse("atypon","hussam");
+	java.register("hussam");
+	System.out.println(java.isRegistered("hussam"));
     }
 }

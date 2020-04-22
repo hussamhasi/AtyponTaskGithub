@@ -12,4 +12,9 @@ public class UniversityCourse {
         this.course=courseName;
         this.instructor=instructorName;
     }
+
+    public void register(String studentName){
+        students.add(studentName);
+    }
+
 }
